@@ -25,6 +25,7 @@ const NavBar = ({ header, showAddAppButton = false, showSearch, showProfile, hid
                         <li><Link to={"/performance"} className={"py-5"}>Performance</Link></li>
                     </ul>
                 </div>
+
                 <div className="btn btn-ghost capitalize"><Link to={"/download"}>Download</Link></div>
                 <div className="btn btn-ghost capitalize"><ExternalLink url={"http://doc.pypy.org/"}>Dev Docs</ExternalLink></div>
                 <div className="dropdown dropdown-hover dropdown-end">
